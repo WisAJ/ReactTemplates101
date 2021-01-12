@@ -1,10 +1,14 @@
 {
+  "homepage": "https://wisaj.github.io/ReactTemplates101/",
   "name": "boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Wis AJ",
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -37,6 +41,7 @@
     "react-addons-shallow-compare": "15.6.0",
     "react-bootstrap": "^1.4.0",
     "react-dates": "12.7.0",
+    "react-deploy": "0.0.15",
     "react-dom": "17.0.1",
     "react-modal": "2.2.2",
     "react-redux": "5.0.5",

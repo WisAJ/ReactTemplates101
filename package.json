@@ -26,6 +26,7 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "bootstrap": "^4.5.3",
+    "build": "^0.1.4",
     "css-loader": "0.28.4",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",

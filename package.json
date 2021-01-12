@@ -1,14 +1,10 @@
 {
-  "homepage": "https://wisaj.github.io/ReactTemplates101/",
   "name": "boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Wis AJ",
   "license": "MIT",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build":"react-scripts build",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
